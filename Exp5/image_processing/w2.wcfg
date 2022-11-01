@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="F:/fpga lab/exp5/image_processing/test_image_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="test_image" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="18" />
+   <wvobject fp_name="/test_image/out" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">out[7:0]</obj_property>
+      <obj_property name="ObjectShortName">out[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_image/LOCKED" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">LOCKED</obj_property>
+      <obj_property name="ObjectShortName">LOCKED</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_image/finished" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">finished</obj_property>
+      <obj_property name="ObjectShortName">finished</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_image/addr_edge" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">addr_edge[15:0]</obj_property>
+      <obj_property name="ObjectShortName">addr_edge[15:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_image/start" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">start</obj_property>
+      <obj_property name="ObjectShortName">start</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_image/clk_25" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk_25</obj_property>
+      <obj_property name="ObjectShortName">clk_25</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_image/fd" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">fd[31:0]</obj_property>
+      <obj_property name="ObjectShortName">fd[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_image/i" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">i[31:0]</obj_property>
+      <obj_property name="ObjectShortName">i[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_image/uut/wea" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">wea</obj_property>
+      <obj_property name="ObjectShortName">wea</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_image/uut/row_matrix" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">row_matrix[1:0]</obj_property>
+      <obj_property name="ObjectShortName">row_matrix[1:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_image/uut/row" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">row[7:0]</obj_property>
+      <obj_property name="ObjectShortName">row[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_image/uut/col" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">col[7:0]</obj_property>
+      <obj_property name="ObjectShortName">col[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_image/uut/addr_im" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">addr_im[15:0]</obj_property>
+      <obj_property name="ObjectShortName">addr_im[15:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_image/uut/dout_im" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">dout_im[7:0]</obj_property>
+      <obj_property name="ObjectShortName">dout_im[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_image/uut/dout_edge" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">dout_edge[7:0]</obj_property>
+      <obj_property name="ObjectShortName">dout_edge[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_image/uut/din_edge" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">din_edge[7:0]</obj_property>
+      <obj_property name="ObjectShortName">din_edge[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_image/uut/matrix" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">matrix[0:2,0:2,7:0]</obj_property>
+      <obj_property name="ObjectShortName">matrix[0:2,0:2,7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_image/uut/start_flag" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">start_flag</obj_property>
+      <obj_property name="ObjectShortName">start_flag</obj_property>
+   </wvobject>
+</wave_config>

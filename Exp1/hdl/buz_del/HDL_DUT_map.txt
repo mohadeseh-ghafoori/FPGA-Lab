@@ -1,0 +1,1 @@
+buz_del/HDL_DUT --> HDL_DUT

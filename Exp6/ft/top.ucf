@@ -1,0 +1,16 @@
+
+# PlanAhead Generated physical constraints 
+
+NET "data[7]" LOC = P97;
+NET "data[6]" LOC = P98;
+NET "data[5]" LOC = P99;
+NET "data[4]" LOC = P100;
+NET "data[3]" LOC = P101;
+NET "data[2]" LOC = P102;
+NET "data[1]" LOC = P104;
+NET "data[0]" LOC = P105;
+NET "clk" LOC = P50;
+NET "rd" LOC = P93;
+NET "rxf" LOC = P95;
+NET "txe" LOC = P94;
+NET "wr" LOC = P92;

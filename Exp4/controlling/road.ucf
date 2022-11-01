@@ -1,0 +1,26 @@
+
+
+NET "clk" LOC = P50;
+NET "green_main" LOC = P132;
+NET "yellow_main" LOC = P131;
+NET "red_main" LOC = P127;
+NET "green_secondary" LOC = P126;
+NET "yellow_secondary" LOC = P124;
+NET "red_secondary" LOC = P123;
+NET "sensor" LOC = P59;
+
+
+NET "timer[7]" LOC = P33;
+NET "timer[6]" LOC = P30;
+NET "timer[5]" LOC = P44;
+NET "timer[4]" LOC = P35;
+NET "timer[3]" LOC = P40;
+NET "timer[2]" LOC = P34;
+NET "timer[1]" LOC = P43;
+NET "timer[0]" LOC = P47;
+
+# PlanAhead Generated physical constraints 
+NET "en" LOC = P46;
+#Created by Constraints Editor (xc6slx9-tqg144-3) - 2021/05/18
+NET "clk" TNM_NET = clk;
+TIMESPEC TS_clk = PERIOD "clk" 5.5 ns HIGH 50%;
